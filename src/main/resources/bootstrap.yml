@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: zuul
+  cloud:
+    config:
+      enabled: false
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#zuul:
+#  routes:
+#    resource:
+#      path: /income/**
+#      serviceId: income
+
+#server:
+#  port: 8443
+#  ssl:
+#      key-store: classpath:dev/gateway.jks
+#      key-store-password: gateway
+#      keyStoreType: JKS
+#      keyAlias: selfsinged
+#      clientAuth: want
+#      trust-store: classpath:dev/gateway.jks
+#ribbon:
+##      listOfServers: http://localhost:8081/
+#      IsSecure: true
+#eureka:
+#  client:
+#    enabled: false
+#
+#income:
+#    ribbon:
+#      listOfServers: http://localhost:8081/
+#      IsSecure: true
+#
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 10000
+
+
+
+
