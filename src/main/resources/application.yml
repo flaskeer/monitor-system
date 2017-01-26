@@ -1,11 +1,24 @@
-
-
-jdbc:
+#Duid数据源
+datasource0:
   driverClassName: com.mysql.jdbc.Driver
-  url: jdbc:mysql://127.0.0.1:3306/ziroomgateway?useUnicode=true&amp;characterEncoding=UTF-8
+  url: jdbc:mysql://127.0.0.1:3306/monitor_system_1?useUnicode=true&characterEncoding=UTF-8
   username: root
   password:
-    
+
+
+datasource1:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/monitor_system_2?useUnicode=true&characterEncoding=UTF-8
+  username: root
+  password:
+
+sfid:
+  worker:
+    id: 1
+  dataCenter:
+    id: 2
+
+
 logging:
   level:
     ROOT: INFO
